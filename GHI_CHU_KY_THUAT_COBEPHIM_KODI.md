@@ -37,3 +37,24 @@ Plugin kiểm tra mọi giá trị phải là HTTPS hợp lệ và cache cấu h
 5. Cập nhật `addons.xml`, tính lại `addons.xml.md5`, commit và push.
 
 Người dùng chỉ cần cài `repository.cobephim-1.0.0.zip` một lần và bật tự động cập nhật trong Kodi.
+
+## Bản phát hành 1.0.0
+
+- Repository GitHub: `https://github.com/TNB88/cobephim.kodi`.
+- Gói cài kho: `C:\cobephim kodi\repository.cobephim\repository.cobephim-1.0.0.zip`; kích thước `938` byte; SHA-256 `B420DF1853F38BB761D3FB0D0F26FE4D77BAAAF3B90C4C133AC15C224A34B832`.
+- Gói cài trực tiếp plugin: `C:\cobephim kodi\plugin.video.cobephim\plugin.video.cobephim-1.0.0.zip`; kích thước `9,199` byte; SHA-256 `AAEC5E94CAB061E8ED58728247658723A002C37CEF47C04BBAD54DAEF3915F7F`.
+- ZIP plugin có đúng thư mục gốc `plugin.video.cobephim/`, không chứa `__pycache__`, `.pyc` hoặc ZIP cũ.
+- `addons.xml.md5` đã đối chiếu đúng MD5 của file `addons.xml` tải lại từ GitHub.
+
+## Kiểm thử 25/10/2026
+
+- Python compile: đạt.
+- XML/JSON cấu hình và repository: đạt.
+- Phim hot: `6` mục.
+- Phim bộ trang 1: `32` mục, tổng `436` trang.
+- Phim lẻ trang 1: `32` mục, tổng `609` trang.
+- Bộ sưu tập trang chủ: `4` nhóm; nhóm đầu có `20` phim.
+- Tìm kiếm `superman`: `30` kết quả.
+- Chi tiết, server và danh sách tập: đạt.
+- Resolver tách được HLS thật từ `streamvsmov`; tải playlist trả HTTP 200 và bắt đầu bằng `#EXTM3U`.
+- Tải lại `config.json`, hai ZIP, `addons.xml` và checksum từ GitHub raw: đạt.
