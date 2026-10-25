@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cobephim"
+       name="Cô Bé Phim"
+       version="1.0.0"
+       provider-name="Bình Pro">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="vi_VN">Xem Cô Bé Phim bằng giao diện Kodi native</summary>
+    <summary lang="en_GB">Browse Cô Bé Phim with a native Kodi interface</summary>
+    <description lang="vi_VN">Duyệt phim hot, phim bộ, phim lẻ, bộ sưu tập, tìm kiếm, chọn server Vietsub/Thuyết Minh và phát HLS trực tiếp.</description>
+    <description lang="en_GB">Browse hot movies, series, movies and collections; search, select a language server and play HLS streams directly.</description>
+    <platform>all</platform>
+    <license>Private conversion</license>
+  </extension>
+</addon>
