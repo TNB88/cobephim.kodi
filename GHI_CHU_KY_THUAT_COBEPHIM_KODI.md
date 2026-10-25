@@ -41,6 +41,7 @@ Người dùng chỉ cần cài `repository.cobephim-1.0.0.zip` một lần và 
 ## Bản phát hành 1.0.0
 
 - Repository GitHub: `https://github.com/TNB88/cobephim.kodi`.
+- Release cài đặt: `https://github.com/TNB88/cobephim.kodi/releases/tag/v1.0.0`.
 - Gói cài kho: `C:\cobephim kodi\repository.cobephim\repository.cobephim-1.0.0.zip`; kích thước `938` byte; SHA-256 `B420DF1853F38BB761D3FB0D0F26FE4D77BAAAF3B90C4C133AC15C224A34B832`.
 - Gói cài trực tiếp plugin: `C:\cobephim kodi\plugin.video.cobephim\plugin.video.cobephim-1.0.0.zip`; kích thước `9,199` byte; SHA-256 `AAEC5E94CAB061E8ED58728247658723A002C37CEF47C04BBAD54DAEF3915F7F`.
 - ZIP plugin có đúng thư mục gốc `plugin.video.cobephim/`, không chứa `__pycache__`, `.pyc` hoặc ZIP cũ.
